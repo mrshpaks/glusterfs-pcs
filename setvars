@@ -1,0 +1,21 @@
+### File with variables
+
+IP_LIST="10.245.1.3 10.245.1.6 10.245.1.7 10.245.1.8"
+CLUSTER_HOSTNAME="gluster-node"
+VIRTUAL_IP="10.245.1.254"
+
+HOST_FILE=/etc/hosts
+
+NFS_DIR=/data
+
+GLUSTER_VOLUME_NAME=br0
+GLUSTER_PORT=24007
+
+CLUSTER_DIR=${NFS_DIR}/${GLUSTER_VOLUME_NAME}
+
+HACLUSTER_USER=hacluster
+HACLUSTER_PASSWORD='NotSecurePass'
+
+PACKAGE_LIST="glusterfs-server corosync pacemaker pcs"
+START_LIST="glusterd pcsd.service"
+ENABLE_LIST="glusterd pcsd.service corosync.service pacemaker.service"
