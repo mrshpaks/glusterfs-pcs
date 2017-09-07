@@ -5,7 +5,7 @@
 This is my first project on github. It was inspired by [this blog post](https://jamesnbr.wordpress.com/2017/01/26/glusterfs-and-nfs-with-high-availability-on-centos-7/) and I want to thanks blog author for this.
 
 ## Before you begin
-The script has been tested on **CentOS 7** running in VistualBox
+The script has been tested on **CentOS 7** running in VirtualBox
 
 Please edit file [setvars](setvars) and set your own values for variables
   1. A list of IP addresses of your cluster
@@ -39,6 +39,6 @@ Please edit file [setvars](setvars) and set your own values for variables
   ```
   7. You can edit or add values to another variables if needed
 
-## installation
+## Installation
 
 Run the script on each node. Enjoy!

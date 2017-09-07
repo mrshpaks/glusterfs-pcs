@@ -145,4 +145,4 @@ echo "########################## End of PCS cluster status #####################
 ### End of installation
 echo "### Congratulations!!! Cluster installation is complete!"
 echo "### To start using your NFS share, please install nfs-utils and run command below"
-echo "### mount -o mountproto=tcp -t nfs ${VIRTUAL_IP}:/${GLUSTER_VOLUME_NAME} /<destenation-folder>"
+echo "### mount -o mountproto=tcp -t nfs ${VIRTUAL_IP}:/${GLUSTER_VOLUME_NAME} /<destination-folder>"
