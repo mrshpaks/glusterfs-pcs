@@ -16,6 +16,7 @@ CLUSTER_DIR=${NFS_DIR}/${GLUSTER_VOLUME_NAME}
 HACLUSTER_USER=hacluster
 HACLUSTER_PASSWORD='NotSecurePass'
 
+### You can add packages here if needed
 PACKAGE_LIST="glusterfs-server corosync pacemaker pcs"
 START_LIST="glusterd pcsd.service"
 ENABLE_LIST="glusterd pcsd.service corosync.service pacemaker.service"
