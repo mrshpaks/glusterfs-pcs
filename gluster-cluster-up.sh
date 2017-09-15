@@ -12,7 +12,7 @@ source ./setvars
 ########## FUNCTIONS
 # Install packages
 install_packages() {
-  yum install $@ -y
+  yum install "$@" -y
 }
 
 # Services functions
